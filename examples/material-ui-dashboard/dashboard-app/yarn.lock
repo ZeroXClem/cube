@@ -1362,14 +1362,28 @@
     url-search-params-polyfill "^7.0.0"
     uuid "^8.3.2"
 
-"@cubejs-client/react@^0.19.37":
-  version "0.19.42"
-  resolved "https://registry.yarnpkg.com/@cubejs-client/react/-/react-0.19.42.tgz#5aa12a97bc4ab239a05ee24cdfec35ff9e594f08"
-  integrity sha512-48qhzUHVaV0XdRs3rAQ3EAhS9sS2HbEvRdTUCc1erw8ZBp0G7jCRI0d8WVhscvlfXg3Ct8EKlW18Uitux2Fp/w==
+"@cubejs-client/core@^0.35.23":
+  version "0.35.23"
+  resolved "https://registry.yarnpkg.com/@cubejs-client/core/-/core-0.35.23.tgz#6d899269aa8f029482e7e4f113f198032c089e26"
+  integrity sha512-tGX7z4P/RJ0E9SrLPmSuRDQGJxgJqERW5jpYImuXMrlumRktyWa4OOIcnAxbItQqf3m0DpWPr5eN0fAkd1gZAA==
   dependencies:
     "@babel/runtime" "^7.1.2"
     core-js "^3.6.5"
-    ramda "^0.27.0"
+    cross-fetch "^3.0.2"
+    dayjs "^1.10.4"
+    ramda "^0.27.2"
+    url-search-params-polyfill "^7.0.0"
+    uuid "^8.3.2"
+
+"@cubejs-client/react@^0.35.48":
+  version "0.35.48"
+  resolved "https://registry.yarnpkg.com/@cubejs-client/react/-/react-0.35.48.tgz#832f000b2525ebff487ce62720d57335744fb5c7"
+  integrity sha512-EJ9a72szX2Vge7jjWcbeMF3r7y4LGcgN7/HaSXOllMEnaR6SIG+0XH+cgN7EaKz1RMWUIPytpeY2FB8aHacF+Q==
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    "@cubejs-client/core" "^0.35.23"
+    core-js "^3.6.5"
+    ramda "^0.27.2"
 
 "@date-io/core@1.x", "@date-io/core@^1.3.13":
   version "1.3.13"
@@ -9370,6 +9384,11 @@ ramda@^0.27.0:
   version "0.27.0"
   resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.27.0.tgz#915dc29865c0800bf3f69b8fd6c279898b59de43"
   integrity sha512-pVzZdDpWwWqEVVLshWUHjNwuVP7SfcmPraYuqocJp1yo2U1R7P+5QAfDhdItkuoGqIBnBYrtPp7rEPqDn9HlZA==
+
+ramda@^0.27.2:
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.27.2.tgz#84463226f7f36dc33592f6f4ed6374c48306c3f1"
+  integrity sha512-SbiLPU40JuJniHexQSAgad32hfwd+DRUdwF2PlVuI5RZD0/vahUco7R8vD86J/tcEKKF9vZrUVwgtmGCqlCKyA==
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5, randombytes@^2.1.0:
   version "2.1.0"
