@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@cube-dev/example-wrapper": "^1.1.10",
-    "@cubejs-client/core": "^0.19.37",
+    "@cubejs-client/core": "^0.35.23",
     "@cubejs-client/react": "^0.19.37",
     "@date-io/date-fns": "^1.3.13",
     "@date-io/moment": "^1.3.13",

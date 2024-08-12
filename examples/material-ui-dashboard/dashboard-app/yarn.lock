@@ -1334,20 +1334,6 @@
     "@cubejs-client/core" "^0.29.33"
     cubedev-tracking "^1.1.0"
 
-"@cubejs-client/core@^0.19.37":
-  version "0.19.42"
-  resolved "https://registry.yarnpkg.com/@cubejs-client/core/-/core-0.19.42.tgz#a4db2dd60f578dc67ae9533c59133994638c94d9"
-  integrity sha512-cbe4p064jH6WX/IAvgqruR1AYPOGAvZlE+3WeXTyRzSrsDGmIl+eoJ0JQfeOuDyynjW53q1SnWGcPjesdPuN5A==
-  dependencies:
-    "@babel/runtime" "^7.1.2"
-    core-js "^3.6.5"
-    cross-fetch "^3.0.2"
-    moment "^2.22.2"
-    moment-range "^4.0.1"
-    ramda "^0.27.0"
-    url-search-params-polyfill "^7.0.0"
-    uuid "^3.4.0"
-
 "@cubejs-client/core@^0.29.33":
   version "0.29.54"
   resolved "https://registry.yarnpkg.com/@cubejs-client/core/-/core-0.29.54.tgz#8e713addb0fc40c45da0d62b45c8195ba2d1612a"
@@ -1359,6 +1345,19 @@
     cross-fetch "^3.0.2"
     dayjs "^1.10.4"
     ramda "^0.27.0"
+    url-search-params-polyfill "^7.0.0"
+    uuid "^8.3.2"
+
+"@cubejs-client/core@^0.35.23":
+  version "0.35.23"
+  resolved "https://registry.yarnpkg.com/@cubejs-client/core/-/core-0.35.23.tgz#6d899269aa8f029482e7e4f113f198032c089e26"
+  integrity sha512-tGX7z4P/RJ0E9SrLPmSuRDQGJxgJqERW5jpYImuXMrlumRktyWa4OOIcnAxbItQqf3m0DpWPr5eN0fAkd1gZAA==
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    core-js "^3.6.5"
+    cross-fetch "^3.0.2"
+    dayjs "^1.10.4"
+    ramda "^0.27.2"
     url-search-params-polyfill "^7.0.0"
     uuid "^8.3.2"
 
@@ -4671,7 +4670,7 @@ es6-iterator@2.0.3, es6-iterator@~2.0.3:
     es5-ext "^0.10.35"
     es6-symbol "^3.1.1"
 
-es6-symbol@^3.1.0, es6-symbol@^3.1.1, es6-symbol@~3.1.3:
+es6-symbol@^3.1.1, es6-symbol@~3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/es6-symbol/-/es6-symbol-3.1.3.tgz#bad5d3c1bcdac28269f4cb331e431c78ac705d18"
   integrity sha512-NJ6Yn3FuDinBaBRWl/q5X/s4koRHBrgKAu+yGI6JCBeiu3qrcbJhwT2GeR/EXVfylRk8dpQVJoLEFhK+Mu31NA==
@@ -7668,14 +7667,7 @@ mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@^0.5.5, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.5"
 
-moment-range@^4.0.1:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/moment-range/-/moment-range-4.0.2.tgz#f7c3863df2a1ed7fd1822ba5a7bcf53a78701be9"
-  integrity sha512-n8sceWwSTjmz++nFHzeNEUsYtDqjgXgcOBzsHi+BoXQU2FW+eU92LUaK8gqOiSu5PG57Q9sYj1Fz4LRDj4FtKA==
-  dependencies:
-    es6-symbol "^3.1.0"
-
-moment@^2.10.2, moment@^2.22.2, moment@^2.24.0, moment@^2.25.3, moment@^2.27.0:
+moment@^2.10.2, moment@^2.24.0, moment@^2.25.3, moment@^2.27.0:
   version "2.27.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.27.0.tgz#8bff4e3e26a236220dfe3e36de756b6ebaa0105d"
   integrity sha512-al0MUK7cpIcglMv3YF13qSgdAIqxHTO7brRtaz3DlSULbqfazqkc5kEjNrLDOM7fsjshoFIihnU8snrP7zUvhQ==
@@ -9370,6 +9362,11 @@ ramda@^0.27.0:
   version "0.27.0"
   resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.27.0.tgz#915dc29865c0800bf3f69b8fd6c279898b59de43"
   integrity sha512-pVzZdDpWwWqEVVLshWUHjNwuVP7SfcmPraYuqocJp1yo2U1R7P+5QAfDhdItkuoGqIBnBYrtPp7rEPqDn9HlZA==
+
+ramda@^0.27.2:
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.27.2.tgz#84463226f7f36dc33592f6f4ed6374c48306c3f1"
+  integrity sha512-SbiLPU40JuJniHexQSAgad32hfwd+DRUdwF2PlVuI5RZD0/vahUco7R8vD86J/tcEKKF9vZrUVwgtmGCqlCKyA==
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5, randombytes@^2.1.0:
   version "2.1.0"
